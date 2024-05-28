@@ -1,0 +1,150 @@
+/*
+*Student Name: Salon Prajapati
+*Student ID: 230369
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, #87CEEB, #87CEFA, #FFA07A, #191970);
+}
+header{
+    text-align: center;
+}
+.box{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fullbox{
+    background-color: #ffffff75;
+    display: flex;
+    width: 67vw;
+    height: 50vh;
+    border: 1px #ffffff9c solid;
+    box-shadow:5px 5px 10px rgba(255, 255, 255, 0.181);
+    padding: 5px;
+    border-radius: 20px;
+}
+.sevendays{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 47vw;
+    border-left:3px solid black ;
+    padding-left: 1em;
+}
+.data{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+.data1{
+    display: flex;
+    gap: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+.conditions{
+    width: 110px;
+}
+.data1,.data p{
+    text-align: center;
+}
+.data p{
+    height: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.dates{
+    width: 123px;
+}
+.citys{
+    width: 75px;
+}.temps{
+    width: 34px;
+}.pressures,.humiditys,.windSpeeds{
+    width: 60px;
+}
+.searchBar{
+    display: inline;
+    width: 214px;
+    justify-content: center;
+    border: 1px solid #3498db;
+    border-radius: 1rem;
+    padding: 0px 5px 3px 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.searchBar input{
+    border: none;
+    outline: 0;
+    background: transparent;
+}
+.searchBar button{
+    cursor: pointer;
+    border-radius: 50%;
+    outline: 0;
+    border: none;
+    padding: 3px;
+    background: transparent;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    height: 50vh;
+    width: 20vw;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+    padding:0px 5px 0px 5px ;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information img{
+    height: 100px;
+}
+.temp{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.condition{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.additionalInformation{
+    display: flex;
+    justify-content: space-between;
+}
+#pressure,#humidity,#windSpeed{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+.tempImgs{
+    height: 40px;
+    width: 40px;
+}
+.cont{
+    display: flex;
+    width: 85px;
+}
